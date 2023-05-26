@@ -206,7 +206,7 @@ useEffect(()=>{
 return (
   <div className="App">
     <div className='Farm_name'>
-      Smart GreenFarmJaidee
+      Smart GreenFarmJairai
     </div>
     <div className="Temp_Data_area">
       <Temp_data  A={A} E={E} />

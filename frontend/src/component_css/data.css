@@ -1,0 +1,75 @@
+.Temp_data_value{
+    position: absolute;
+    font-size: 100px;
+    color: #ed8554;    
+}.Temp_data_unit{
+    position: absolute;
+    font-size: 30px;
+    color: #ed8554;
+    left: 190px;
+    top: 85px;
+}
+.Temp_data_area{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 15px;
+    left: 50px;
+   
+    
+}
+.Temp_data_header{
+    position: absolute;
+    font-size: 20px;
+    color: #ed8554;
+    top: 55px;
+    left: 160px;
+}
+.Humid_data_value{
+    position: absolute;
+    font-size: 100px;
+    color: #F5EB6d;
+}.Humid_data_unit{
+    position: absolute;
+    font-size: 30px;
+    color: #F5EB6d;
+    left: 190px;
+    top: 85px;
+}
+.Humid_data_area{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 15px;
+    left: 50px;
+    
+}
+.Humid_data_header{
+    position: absolute;
+    font-size: 20px;
+    color: #F5EB6d;
+    top: 55px;
+    left: 160px;
+}
+.Soil_data_value{
+    position: absolute;
+    font-size: 100px;
+    color: #be375f;
+    left: 50px;
+    top: 18px;
+    
+}.Soil_data_unit{
+    position: absolute;
+    font-size: 30px;
+    color: #be375f;
+    left: 235px;
+    top: 105px;
+}
+
+.Soil_data_header{
+    position: absolute;
+    font-size: 20px;
+    color: #be375f;
+    top: 75px;
+    left: 210px;
+}

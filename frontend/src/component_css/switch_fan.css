@@ -1,0 +1,86 @@
+.Switch_fan_header_on{
+    position: absolute;
+    font-size: 100px;
+    color: #A7D8FF;
+    left: 75px;
+    top: 10px;
+    opacity: 1;
+}
+.Switch_fan_header_off{
+  position: absolute;
+  font-size: 100px;
+  color: #A7D8FF;
+  left: 75px;
+  top: 10px;
+  animation: rotate 0.5s infinite linear;
+  transition-timing-function: linear;
+}
+
+.Switch_fan_on{
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  background-color: #009A44;
+  border-radius: 50px;
+  top: 5px;
+  left: 5px;
+  
+}
+.Switch_fan_off{
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  background-color: #FF160C;
+  border-radius: 50px;
+  top: 5px;
+  left: 5px;
+  
+}
+
+.Switch_fan_trigger{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  left: 50px;
+  background-image: linear-gradient(#B4B4B4,#FFFFFF);
+  cursor: pointer;
+}
+
+.Switch_fan_untrigger{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-image: linear-gradient(#B4B4B4,#FFFFFF);
+  cursor: pointer;
+}
+
+.Switch_fan_base{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #D8D8D8;
+  border-radius: 50px;
+  left: 345px;
+  top: 180px;
+  
+}
+.statusON{
+  position: absolute;
+  font-size: 25px;
+  color: #D8D8D8;
+  left: 50px;
+}
+
+.statusOFF{
+  position: absolute;
+  font-size: 25px;
+  color: #D8D8D8;
+  left: 10px;
+}
+@keyframes rotate {
+  from{transform: rotate(-360deg);}
+  to{transform: rotate(360deg);}
+}
+

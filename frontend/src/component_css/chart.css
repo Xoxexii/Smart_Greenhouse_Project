@@ -1,0 +1,18 @@
+.Humid_graph{
+    position: absolute;
+    
+    width: 500px;
+    height: 180px;
+
+}.Temp_graph{
+    position: absolute;
+   
+    width: 500px;
+    height: 180px;
+    
+}.Soil_graph{
+    position: absolute;
+    
+    width: 500px;
+    height: 180px;
+}

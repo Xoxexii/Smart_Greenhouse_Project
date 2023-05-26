@@ -1,0 +1,180 @@
+.App {
+  background-color: black;
+  position: absolute;
+  width: 1479px;
+  height: 713px;
+  
+}
+
+.Button{
+  position: absolute;
+  background-color: rgb(251, 249, 249);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transition: 1s;
+  border-radius: 10px;
+}
+.Button:hover{
+  background-color: blue;
+  width: 80px;
+  left: 49%;
+  font-size: 20px;
+}
+.font{
+  color: aquamarine;
+}
+.dates{
+  position: absolute;
+  left: 48%;
+  width: 100px;
+  height: 100px;
+}
+.hours{
+  position: absolute;
+  font-size: 20px;
+  color: #5f236b;
+}
+.Humid_Data_area{
+  position: absolute;
+  width: 369.75px;
+  height: 178.25px;
+  top: 178.25px;
+  left: 5px;
+  
+  border-radius:  20px 20px 0px 0px;
+  border: 2px solid #F5EB6d;
+  
+  
+}
+.Temp_Data_area{
+  position: absolute;
+  width: 369.75px;
+  height: 178.25px;
+  left: 5px;
+  top: 356.5px;
+  
+  border: 2px solid #ed8554;
+  
+}
+.Soil_Data_area{
+  position: absolute;
+  width: 369.75px;
+  height: 168.25px;
+  left: 5px;
+  top: 534.75px;
+  
+  border-radius: 0px 0px 20px 20px;;
+  border: 2px solid #be375f;
+}
+.seperate{
+  position: absolute;
+  width: 2px;
+  height: 375px;
+  background-color: #5f236b;
+  top: 30px;
+  left: 400px;
+  border-radius: 50px;
+}
+.Switch_fan_area{
+  position: absolute;
+  width: 535px;
+  height: 280px;
+  border: 1px solid ;
+  
+  top: 135px;
+  left: 929.375px;
+  
+  margin-top: 5px;
+}
+.Switch_pump_area{
+  position: absolute;
+  width: 535px;
+  height: 270px;
+  
+  
+  
+  top: 425px;
+  left: 929.375px;
+  
+  
+}
+
+.Tab_area{
+  position: absolute;
+  width: 295px;
+  height: 85px;
+  top: 30px;
+  left: 1098px;
+  
+
+
+  
+  border-radius: 20px;
+}.Humid_chart_area{
+  position: absolute;
+  border-radius: 20px;
+  height: 150.25px;
+  width: 524.625px;
+ 
+  top: 183.25px;
+  left: 399.75px;
+  
+}.Temp_chart_area{
+  position: absolute;
+  border-radius: 20px;
+  height: 150.25px;
+  width: 524.625px;
+  
+  top: 361.5px;
+  left: 399.75px;
+  
+}.Soil_chart_area{
+  position: absolute;
+  border-radius: 20px;
+  height: 150.25px;
+  width: 524.625px;
+  top: 533.5px;
+  left: 399.75px;
+  
+}.Farm_name{
+  position: absolute;
+  opacity: 1;
+  color: white;
+  font-size: 50px;
+  left: 20px;
+  top: 20px;
+  font-family: 'Gloria Hallelujah';
+}.Farm_longname{
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  left: 350px;
+  top: 20px;
+  opacity: 1;
+  font-family: 'Gloria Hallelujah';
+  transition: 0.5s;
+}.Farm_name:hover + .Farm_longname{
+  opacity: 1;
+}.pillar_head{
+  position: absolute;
+  width: 75px;
+  height: 15px;
+  background-color: white;
+  right: 10px;
+  top: 65px;
+}.pillar_joint{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  right: 5px;
+  top: 65px;
+  border-radius: 15px;
+}.dates{
+  font-size: 30px;
+  color: white;
+}
